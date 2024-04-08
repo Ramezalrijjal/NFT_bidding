@@ -1,0 +1,144 @@
+Comment container
+.comment-container {
+    /* border: 1px solid #ccc; */
+    margin: 10px auto; /* Margin between comments and replies */
+    padding: 10px;
+    /* background-color: #f7f7f7; */
+    width: 80%;
+  }
+  
+  /* Comment */
+  .comment {
+    display: flex;
+    align-items: flex-start;
+    background-color: #ffffff1a;
+    padding: 10px;
+  }
+  
+
+ .comment-container-replies{
+
+    padding: 10px 0px;
+    width: 50%;
+    margin-left: 30px;
+  }
+
+  
+  
+  /* User avatar */
+  .user-avatar {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Comment content */
+  .comment-right-part {
+    flex: 1;
+  }
+  
+  /* Author name and comment date */
+  .author-name {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .comment-date {
+    font-size: 14px;
+    color: #888;
+    margin-left: 10px;
+  }
+  
+  /* Comment text */
+  .comment-text p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  /* Comment actions */
+  .comment-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Comment action buttons */
+  .comment-action {
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    width: fit-content;
+  }
+  
+  .comment-action:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Reply action */
+  .reply-action {
+    background-color: #00b300;
+  }
+  
+  /* Edit action */
+  .edit-action {
+    background-color: #ffa500;
+  }
+  
+  /* Delete action */
+  .delete-action {
+    background-color: #ff0000;
+  }
+
+
+  /* Comment form container */
+.comment-form-container {
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  /* Comment textarea */
+  .comment-form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    resize: vertical;
+  }
+  
+  /* Comment form button */
+  .comment-form-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: fit-content;
+  }
+  
+  .comment-form-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Cancel button (if hasCancelButton is true) */
+  .comment-form-cancel-button {
+    background-color: #ff0000;
+  }
+  
+  /* Style for additional buttons, e.g., Edit and Delete */
+  .comment-form-button.additional-button {
+    background-color: #ffa500;
+  }
+  
+  
